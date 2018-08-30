@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 
 // MARK: Constant
-let kDPDrawerButtonRect: CGRect = CGRect(x: 8.0, y: 25.0, width: 34.0, height: 34.0)
-let kDPDrawerButtonRect_iPhoneX: CGRect = CGRect(x: 8.0, y: 45.0, width: 34.0, height: 34.0)
+let kDPDrawerButtonRect: CGRect = CGRect(x: 14.0, y: 25.0, width: 34.0, height: 34.0)
+let kDPDrawerButtonRect_iPhoneX: CGRect = CGRect(x: 14.0, y: 45.0, width: 34.0, height: 34.0)
 let kDPDrawerControllerDrawerWidthGapOffset: CGFloat = 60.0
 let kDPDrawerControllerLeftViewInitialOffset: CGFloat = -60.0
 
@@ -20,7 +20,7 @@ let kDPDrawerControllerOpeningAnimationSpringDamping: CGFloat = 1.0
 let kDPDrawerControllerOpeningAnimationSpringInitialVelocity: CGFloat = 0.1
 let kDPDrawerControllerClosingAnimationSpringDamping: CGFloat = 1.0
 let kDPDrawerControllerClosingAnimationSpringInitialVelocity: CGFloat = 0.5
-let kDPPageControlHeight: CGFloat = 30.0
+let kDPPageControlHeight: CGFloat = UIScreen.current == .iPhone5_8 ? 50.0 : 30.0
 
 public struct Palette {
   static let main = UIColor(red: 237.0 / 255.0, green: 140.0 / 255.0, blue: 52.0 / 255.0, alpha: 1.0)
