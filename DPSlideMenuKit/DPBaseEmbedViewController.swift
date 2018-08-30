@@ -10,11 +10,7 @@ import UIKit
 
 open class DPBaseEmbedViewController: UIViewController {
   
-  fileprivate (set) var positionState: DPEmbedViewControllerPositionState = .left
-  
-  func setPositionState(positionState: DPEmbedViewControllerPositionState) {
-    self.positionState = positionState
-  }
+  open var positionState: DPEmbedViewControllerPositionState = .left
   
   // MARK: Life Cycle
   override public init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {

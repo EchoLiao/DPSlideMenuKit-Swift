@@ -30,7 +30,7 @@ open class DPSlideMenuManager {
       }
       for (index, leftContentViewController) in self.leftContentViewControllers.enumerated() {
         let leftContentEmbedViewController = self.leftContentEmbedViewControllers[index]
-        leftContentEmbedViewController.setPositionState(positionState: .left)
+        leftContentEmbedViewController.positionState = .left
         leftContentViewController.config(embedViewController: leftContentEmbedViewController)
       }
     }
@@ -41,7 +41,7 @@ open class DPSlideMenuManager {
       }
       for (index, rightContentViewController) in self.rightContentViewControllers.enumerated() {
         let rightContentEmbedViewController = self.rightContentEmbedViewControllers[index]
-        rightContentEmbedViewController.setPositionState(positionState: .right)
+        rightContentEmbedViewController.positionState = .right
         rightContentViewController.config(embedViewController: rightContentEmbedViewController)
       }
     }
