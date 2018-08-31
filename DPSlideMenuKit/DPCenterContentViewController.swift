@@ -35,7 +35,7 @@ open class DPCenterContentViewController: UIViewController {
       self.openDrawerButton.frame = kDPDrawerButtonRect_iPhoneX
     }
     self.openDrawerButton.addTarget(self, action: #selector(openDrawer(_:)), for: .touchUpInside)
-    self.openDrawerButton.lineWidth = 34.0
+    self.openDrawerButton.lineWidth = self.openDrawerButton.frame.size.width
     self.openDrawerButton.lineMargin = 12
     self.openDrawerButton.lineCapRound = true
     self.openDrawerButton.thickness = 6

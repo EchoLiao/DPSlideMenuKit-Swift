@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 
 // MARK: Constant
-let kDPDrawerButtonRect: CGRect = CGRect(x: 14.0, y: 25.0, width: 34.0, height: 34.0)
-let kDPDrawerButtonRect_iPhoneX: CGRect = CGRect(x: 14.0, y: 45.0, width: 34.0, height: 34.0)
+let kDPDrawerButtonRect: CGRect = CGRect(x: 14.0, y: 29.0, width: 30.0, height: 30.0)
+let kDPDrawerButtonRect_iPhoneX: CGRect = CGRect(x: 14.0, y: 49.0, width: 30.0, height: 30.0)
 let kDPDrawerControllerDrawerWidthGapOffset: CGFloat = 60.0
 let kDPDrawerControllerLeftViewInitialOffset: CGFloat = -60.0
 
