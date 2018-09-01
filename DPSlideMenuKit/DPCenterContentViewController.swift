@@ -70,6 +70,10 @@ open class DPCenterContentViewController: UIViewController {
     }
 
   }
+
+    open func toggleDrawerButton(hide: Bool) {
+        self.openDrawerButton.isHidden = hide
+    }
   
   // MARK: Actions
   @objc func openDrawer(_ sender: DPMenuButton) {
